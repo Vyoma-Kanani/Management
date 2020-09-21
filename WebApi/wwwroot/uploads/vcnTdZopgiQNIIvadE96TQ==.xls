@@ -1,0 +1,1727 @@
+<table>
+	<thead>
+		<tr>
+			<th scope="col">
+                                
+                            </th><th scope="col">&nbsp;</th><th scope="col">Id</th><th scope="col">Title</th><th scope="col">Project</th><th scope="col">Votes</th><th scope="col">Category</th><th scope="col">Creator</th><th scope="col">Owner</th><th scope="col">Assigned</th><th scope="col">Type</th><th scope="col">Milestone</th><th scope="col">Affected Milestone</th><th scope="col">Status</th><th scope="col">Priority</th><th scope="col">Resolution</th><th scope="col">Due Date</th><th scope="col">Estimation (hrs)</th><th scope="col">Progress</th><th scope="col">Time Logged (hrs)</th><th scope="col">Created</th><th scope="col">Last Update<span style="font-family:verdana;font-size:X-Small;font-weight:normal;">1</span></th><th scope="col">Last Update User</th>
+		</tr>
+	</thead><tbody>
+		<tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2764</td><td>Create getTotalCostInformation web method</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/22/2019
+                            </td><td>
+                                6/7/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2765</td><td>prcUpdateLoginHistory improvements</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/28/2019
+                            </td><td>
+                                6/7/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2766</td><td>Validate Login Stored Procedures</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                6/3/2019
+                            </td><td>
+                                6/7/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2767</td><td>Create new web method getEnrolmentPeriodInformation</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Medium<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                6/3/2019
+                            </td><td>
+                                6/7/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2751</td><td>inline SQL in code</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Carl (New)
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Medium<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                3/26/2019
+                            </td><td>
+                                6/3/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2761</td><td>CGG – Private Healthcare - System Not Saving Funding</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Ryan
+                            </td><td>
+                                Ryan
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/16/2019
+                            </td><td>
+                                5/20/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2752</td><td>Vulnerability Scan Issues</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                4/3/2019
+                            </td><td>
+                                5/16/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2758</td><td>Janus Henderson - erroneous data</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/3/2019
+                            </td><td>
+                                5/3/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2098</td><td>New Product Type - Part-funded Benefit</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                1/24/2018
+                            </td><td>
+                                4/3/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2744</td><td>List of fields available to system emails</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                3/6/2019
+                            </td><td>
+                                3/8/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2742</td><td>HR User - performance issue in production</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                3/6/2019
+                            </td><td>
+                                3/6/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2733</td><td>Production server - patch and reboot</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                2/18/2019
+                            </td><td>
+                                2/28/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2738</td><td>Load/Renewal - improvements</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                2/26/2019
+                            </td><td>
+                                2/27/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2737</td><td>Products - Products - improvements</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                2/21/2019
+                            </td><td>
+                                2/22/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2735</td><td>Century Link - Poor response times</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Severe<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                2/20/2019
+                            </td><td>
+                                2/20/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2062</td><td>Critical Illness - additional product configuration / validation - estimate needed</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                1/4/2018
+                            </td><td>
+                                2/6/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2727</td><td>Product Configure - new option</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                1/14/2019
+                            </td><td>
+                                2/1/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2560</td><td>Employees - View/Edit - new tab needed</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                6/19/2018
+                            </td><td>
+                                1/8/2019
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-1604</td><td>WSP data refresh major issue</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Critical<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                8/16/2017
+                            </td><td>
+                                1/4/2019
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2680</td><td>Pro-rating benefit costs</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                10/1/2018
+                            </td><td>
+                                12/27/2018
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2715</td><td>Remove v Decline functionality</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                11/27/2018
+                            </td><td>
+                                11/28/2018
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-358</td><td>Configure Product to Client - Always Open function not working</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                4/11/2016
+                            </td><td>
+                                10/5/2018
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2390</td><td>Mechanism needed to transfer product configurations from UAT to Production for a client</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                3/20/2018
+                            </td><td>
+                                9/25/2018
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-1970</td><td>ICG - Additional Holiday Benefit - Maximum Leave of Zero being ignored</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Critical<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                11/28/2017
+                            </td><td>
+                                8/6/2018
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2500</td><td>Memset production server - backup exceeds data allowance</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/14/2018
+                            </td><td>
+                                5/14/2018
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-2078</td><td>Analyse Audit Trail - Login and Submission stats incorrect</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                1/16/2018
+                            </td><td>
+                                4/13/2018
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-1520</td><td>Dependants report enhancements</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                7/14/2017
+                            </td><td>
+                                8/7/2017
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-1429</td><td>Salary change effective date issue</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                5/12/2017
+                            </td><td>
+                                7/12/2017
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-885</td><td>Analyse Audit Trail - Submission counts</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Medium<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                11/30/2016
+                            </td><td>
+                                7/4/2017
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-1478</td><td>Funding Elements page - Delete button doesn&#39;t work</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                In Progress<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                6/13/2017
+                            </td><td>
+                                6/16/2017
+                            </td><td>
+                                Amit
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-491</td><td>Allow n.5 values in maximum benefit field for annual leave benefit</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Bug<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">none</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                High<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                9/15/2016
+                            </td><td>
+                                9/15/2016
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;#fafafa&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-354</td><td>Estimate for new fields / new table</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Feature Request<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">none</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Medium<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                4/7/2016
+                            </td><td>
+                                5/26/2016
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr><tr onmouseover="this.style.background=&#39;#F7F7EC&#39;" onmouseout="this.style.background=&#39;&#39;">
+			<td>
+                                False
+                            </td><td>
+                                Private
+                            </td><td>YOUPROD-356</td><td>Investigate possibility of adding primary keys to three tables</td><td>Youflex Production</td><td>
+                                1
+                            </td><td>
+                                youflex
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Andrew Cross
+                            </td><td>
+                                Amit
+                            </td><td>
+                                Task<span id="ctlType_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                <span id="ctlAffectedMilestone_lblText">Underway</span>
+
+                            </td><td>
+                                On hold<span id="ctlStatus_lblText"></span>
+
+                            </td><td>
+                                Low<span id="ctlPriority_lblText"></span>
+
+                            </td><td>
+                                <span id="ctlResolution_lblText">none</span>
+
+                            </td><td>
+                                none
+                            </td><td>
+                                0.00
+                            </td><td>
+                                <div id="Progress" style="vertical-align: top; font-size: 8px; border: 1px solid #ccc; width: 100px; height: 7px;
+                                    margin: 5px; text-align: center;">
+                                    <div id="ProgressBar" style="text-align:left;background-color:#C4EFA1;height:7px;width:0%;">
+                                        &nbsp;</div>
+                                </div>
+                            </td><td>
+                                0
+                            </td><td>
+                                4/8/2016
+                            </td><td>
+                                5/9/2016
+                            </td><td>
+                                Andrew Cross
+                            </td>
+		</tr>
+	</tbody>
+</table>

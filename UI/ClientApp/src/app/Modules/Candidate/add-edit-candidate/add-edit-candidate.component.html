@@ -1,0 +1,90 @@
+<form class="example-form" [formGroup]="addEditCandidate" (ngSubmit)="save()" novalidate>
+  <div id="page-wrapper">
+    <!--<div class="maintitle">
+        <h5>{{title}}</h5>
+    </div>-->
+    <div class="form-horizontal ">
+      <div class="form-group row">
+        <label class="col-sm-2 control-label">Candidate Name</label>
+        <div class="col-sm-5">
+          <input type="text" class="form-control" formControlName="candidateName"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.candidateName.errors }" required />
+          <div *ngIf="submitted && validationCheck.candidateName.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.candidateName.errors.required">Candidate Name is required</div>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-2 control-label">Email Address</label>
+        <div class="col-sm-5">
+          <input type="email" class="form-control" formControlName="email"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.email.errors }" required />
+          <div *ngIf="submitted && validationCheck.email.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.email.errors.required">Email Address is required</div>
+          </div>
+          <div *ngIf="validationCheck.email.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.email.errors.email">Email Address is invalid.</div>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-2 control-label">Mobile Number</label>
+        <div class="col-sm-5">
+          <input type="text" class="form-control" maxlength="10" formControlName="mobile"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.mobile.errors }" required />
+          <div *ngIf="submitted && validationCheck.mobile.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.mobile.errors.required">Mobile Number is required</div>
+          </div>
+          <div *ngIf="validationCheck.mobile.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.mobile.errors.pattern">Mobile Number is invalid.</div>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-2 control-label">Candidate Experience</label>
+        <div class="col-sm-5">
+          <input type="number" class="form-control" formControlName="experience" required
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.experience.errors }" />
+          <div *ngIf="submitted && validationCheck.experience.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.experience.errors.required">Candidate Experience is required</div>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 control-label">Technology</label>
+        <div class="col-sm-5">
+          <ng-select class="example-full-width" bindLabel="name" bindValue="id"
+                     [ngClass]="{ 'is-invalid': submitted && validationCheck.technology.errors }" required
+                     placeholder="Select Technology" appendTo="body" multiple="true" [searchable]="true"
+                     [clearable]="true" [closeOnSelect]="false" formControlName="technology"
+                     [(ngModel)]="techselected">
+            <ng-option [value]="tech.name" *ngFor="let tech of techList">
+              {{tech.name}}
+            </ng-option>
+          </ng-select>
+          <div *ngIf="submitted && validationCheck.technology.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.technology.errors.required">Technology is required</div>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <hr />
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="addEditBtn">
+        <button type="reset" class="btn  btn-default" id="btnspace" mat-raised-button>Reset</button>
+        <button type="submit" class="btn btn-primary theme-btn" mat-raised-button>{{title}}</button>
+    </div>
+  </div>
+    </div>
+</form>

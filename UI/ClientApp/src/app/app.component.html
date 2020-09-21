@@ -1,0 +1,11 @@
+<div class="mainAppClass">
+  <div *ngIf="cookievalue; else elseBlock">
+    <app-main-layout></app-main-layout>
+  </div>
+  <ng-template #elseBlock>
+    <app-login></app-login>
+  </ng-template>
+
+
+  <router-outlet></router-outlet>
+</div>

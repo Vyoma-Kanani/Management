@@ -1,0 +1,79 @@
+
+#page-wrapper {
+  position: inherit;
+  margin: 0 0 0 1px;
+  padding: 0 20px;
+  border-left: 1px solid #e7e7e7;
+  margin-top: 30px;
+}
+
+.maintitle {
+  border-bottom: 4px solid #208fc8;
+  position: relative;
+  min-height: 42px;
+  margin-bottom: 22px;
+}
+
+  .maintitle h2 {
+    margin: 0;
+    padding: 4px 100px 10px 0;
+    font-family: "Segoe UI",'SegoeUINormal', arial;
+    font-size: 22px;
+    color: #333;
+    line-height: 1;
+  }
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dddddd;
+  border-radius: 0px;
+}
+
+
+  .form-control:focus {
+    border-color: #b4b4b4;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(180, 180, 180, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(180, 180, 180, 0.6);
+  }
+
+.addEditBtn {
+  float: right;
+}
+
+.btn-default {
+  margin-right: 10px;
+}
+
+.control-label {
+  text-align: left !important;
+  font-family: "Segoe UI", arial, tahoma !important;
+  font-size: 13px;
+}
+
+.infoLabel {
+  font-weight: 400;
+  padding-top: 7px;
+  font-size: 13px !important;
+  font-family: "Segoe UI", arial, tahoma !important;
+}
+
+.mat-expansion-panel-header {
+  background: #e7e7e7 !important;
+  font-family: "Segoe UI", arial, tahoma !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mat-expansion-panel {
+  background: #f9f9f9 !important;
+}

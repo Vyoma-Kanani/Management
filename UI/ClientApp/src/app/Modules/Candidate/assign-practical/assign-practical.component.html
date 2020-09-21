@@ -1,0 +1,48 @@
+<mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon>
+
+
+<div id="page-wrapper">
+  <div class="maintitle">
+    <h3>Assign Practical</h3>
+  </div>
+  <div class="example-container">
+    <table class="table table-stripped table-bordered dataTable">
+      <thead class="assignHead">
+        <tr>
+          <th id="colHeader">Name </th>
+          <th id="colHeader">Defination</th>
+          <th id="colHeader">Technology</th>
+          <th id="colHeader">Category</th>
+          <th id="colHeader">Action</th>
+        </tr>
+      </thead>
+      <tbody class="info">
+        <tr *ngFor="let prac of practicalList">
+          <td>
+            {{prac.practicalName}}
+          </td>
+          <td>
+            {{prac.defination}}
+          </td>
+          <td>
+            {{prac.technology}}
+          </td>
+          <td>
+            {{prac.categoryName}}
+          </td>
+          <td class="assignbtnAlign">
+            <button class="btn btn-primary theme-btn"
+                    id='onselectStyle'
+                    (click)="onAssignPractical(prac)">
+              Assign
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<hr />
+
+

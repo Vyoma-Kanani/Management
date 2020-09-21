@@ -1,0 +1,16 @@
+.addEditBtn
+{
+  float:right;
+}
+.btn-default {
+  margin-right: 10px;
+}
+.control-label{
+  text-align:left !important;
+}
+.control-label {
+  text-align: left !important;
+  font-family: "Segoe UI", arial, tahoma !important;
+  font-size: 13px;
+  padding-top: 0px !important;
+}

@@ -1,0 +1,88 @@
+<div id="page-wrapper">
+  <div class="maintitle">
+    <h2>Machine Details</h2>
+    <div class="rt_btn">
+      <span mat-raised-button>
+        <mat-icon (click)="onAddEditMachine(null)" id="addStyle">add</mat-icon>
+      </span>
+    </div>
+  </div>
+ 
+  <br />
+  <div class="example-container">
+    <div class="searchStyle">
+      <input type="text" placeholder="Search" [(ngModel)]="searchText" />
+    </div>
+    <table class="table table-stripped table-bordered dataTable display">
+      <thead id="MachineTable">
+        <tr>
+          <th id="colHeader" [class.active]="order === 'machineName'"
+              (click)="setOrder('machineName')"
+              class="mdl-data-table__cell--non-numeric">
+            Name <span [hidden]="reverse"><b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader">IP Address</th>
+          <th id="colHeader">Working Directory Path</th>
+          <th id="colHeader" [class.active]="order === 'floorName'"
+              (click)="setOrder('floorName')">
+            Floor <span [hidden]="reverse"><b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader" [class.active]="order === 'occupied'"
+              (click)="setOrder('occupied')">
+            Occupied Status <span [hidden]="reverse"><b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader" [class.active]="order === 'machineStatus'"
+              (click)="setOrder('machineStatus')">
+            Status <span [hidden]="reverse"><b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader">Action</th>
+        </tr>
+      </thead>
+
+      <tbody class="info">
+        <tr *ngFor="let machine of machineList | orderBy: order:reverse | filter:searchText | paginate: { itemsPerPage: perPageitems, currentPage: pageNumber } ">
+          <td>
+            {{machine.machineName}}
+          </td>
+          <td>
+            {{machine.machineIP}}
+          </td>
+          <td>
+            {{machine.workingDirectoryPath}}
+          </td>
+          <td>
+            {{machine.floorName}}
+          </td>
+          <td>
+            {{machine.occupied}}
+          </td>
+          <td>
+            {{machine.machinestatus}}
+          </td>
+          <td>
+            <span (click)="onAddEditMachine(machine)" class="btn action">
+              <span id='actionStyle' class="fa fa-edit"></span>
+            </span>
+            <button class="btn action" id='onselectStyle'
+                    (click)="deleteItem(machine)">
+              <mat-icon id="actionStyle">delete_outline</mat-icon>
+              <!--<span class="fa fa-times" id='actionStyle'></span>-->
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="row footerPage">
+      <div class="col-lg-8 alignPage">
+        <label class=" col-lg-2 labelStylePage control-label my-label">Page Size : </label>
+        <select [(ngModel)]="perPageitems" class="setPage">
+          <option *ngFor="let item of items" [ngValue]="item">{{item}}</option>
+        </select>
+      </div>
+
+      <pagination-controls class="col-lg-4 pagestyle" (pageChange)="pageNumber = $event"></pagination-controls>
+    </div>
+  </div>
+  <!--</app-tabs>
+  </app-tab-content>-->
+</div>

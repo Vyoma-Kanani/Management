@@ -1,0 +1,142 @@
+<mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon>
+
+<form class="example-form" [formGroup]="addEditPractical" (ngSubmit)="save()" novalidate>
+  <div id="page-wrapper">
+    <div class="maintitle">
+      <h3>{{title}}</h3>
+    </div>
+    <div class="form-horizontal ">
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" formControlName="PracticalName"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.PracticalName.errors }" required />
+          <div *ngIf="submitted && validationCheck.PracticalName.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.PracticalName.errors.required">Practical Name is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Definition</label>
+        <div class="col-sm-9">
+          <textarea rows="4" class="form-control" id="def" formControlName="defination"
+                    [ngClass]="{ 'is-invalid': submitted && validationCheck.defination.errors }" required>
+        </textarea>
+          <div *ngIf="submitted && validationCheck.defination.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.defination.errors.required">Practical Definition is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Technology</label>
+        <div class="col-sm-9">
+          <ng-select class="example-full-width" bindLabel="name"
+                     [ngClass]="{ 'is-invalid': submitted && validationCheck.technology.errors }" required
+                     placeholder="Select Technology" appendTo="body" multiple="true" [searchable]="true"
+                     [clearable]="true" [closeOnSelect]="false" formControlName="technology"
+                     [(ngModel)]="techselected">
+            <ng-option [value]="tech.name" [disabled]="tech.disabled" *ngFor="let tech of techList">
+              {{tech.name}}
+            </ng-option>
+          </ng-select>
+          <div *ngIf="submitted && validationCheck.technology.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.technology.errors.required">Technology is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Experience LB</label>
+        <div class="col-sm-9">
+          <input type="number" class="form-control" formControlName="ExperienceLb"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.ExperienceLb.errors }" required />
+          <div *ngIf="submitted && validationCheck.ExperienceLb.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.ExperienceLb.errors.required">Experience Lower Bound is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Experience UB</label>
+        <div class="col-sm-9">
+          <input type="number" class="form-control" formControlName="ExperienceUb"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.ExperienceUb.errors }" required />
+          <div *ngIf="submitted && validationCheck.ExperienceUb.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.ExperienceUb.errors.required">Experience Upper Bound is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Category</label>
+        <div class="col-sm-9">
+          <!--<input type="radio" name="category" id="Web" [value]="Web" > Web
+          <input type="radio" name="category" id="Window" [value]="Window" > Windows-->
+          <!--<mat-radio-group name="category" formControlName="category"
+                           [ngClass]="{ 'is-invalid': submitted && validationCheck.category.errors }" required>
+            <mat-radio-button class="spaceRadio" value="1">Web</mat-radio-button>
+            <mat-radio-button value="2">Window</mat-radio-button>
+          </mat-radio-group>-->
+          <span *ngFor="let entry of practicalcategry" class="spaceRadio" [ngClass]="{ 'is-invalid': submitted && validationCheck.category.errors }"
+                required>
+            <span>
+              <input type="radio" name="category"
+                     [value]="entry.id"
+                     [(ngModel)]="Categoryselected"
+                     formControlName="category" />
+              <!--[checked]="idx === 0"-->
+            </span>
+            <span>{{ entry.name }}</span>
+          </span>
+          <div *ngIf="submitted && validationCheck.category.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.category.errors.required">Category is required</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Practical Document</label>
+        <div class="col-sm-9">
+          <input type="file" id="pracDoc" (change)="uploadDoc($event)" accept=".doc,.docx,.xls,.xlsx,.pdf" formcontrolName="PracDocument" />
+        </div>
+        <span class="col-sm-3"></span>
+        <span class="col-sm-9" *ngIf="pracDocDetails != ''">
+          <a class="linkstyle" (click)="DownLoadFiles(pracDocDetails)"><u>{{ulrPrac}}</u></a>
+        </span>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Reference Document</label>
+        <div class="col-sm-9">
+          <input type="file" id="refDoc" (change)="upload($event)" accept=".doc,.docx,.xls,.xlsx,.mp4,.webmd" formControlName="RefDocument" />
+        </div>
+        <span class="col-sm-3"></span>
+        <span class="col-sm-9" *ngIf="refDocDetails != ''">
+          <a class="linkstyle" (click)="DownLoadFiles(refDocDetails)"><u>{{urlRef}}</u></a>
+        </span>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Comment</label>
+        <div class="col-sm-9">
+          <textarea rows="2" class="form-control" id="def" formControlName="comment">
+        </textarea>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <hr />
+  <div>
+    <button type="button" class="btn btn-default" id="btnCancel" mat-raised-button (click)="closeDialog()">
+      Cancel
+    </button>
+    <button type="reset" class="btn  btn-default" id="btnspace" mat-raised-button>Reset</button>
+    <button type="submit" class="btn btn-primary theme-btn" mat-raised-button>{{title}}</button>
+  </div>
+
+</form>

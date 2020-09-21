@@ -1,0 +1,152 @@
+<div class="page-wrapper">
+
+  <div class="grid">
+    <div>
+      <div class="db_box">
+        <h2>Todays Practical</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="progressCountData"
+                  [colors]="chartColors"
+                  [labels]="TodaysPractical"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="db_box">
+        <h2>Practical Passout Ratio</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="overallPassoutData"
+                  [labels]="PracticalPassOut"
+                  [chartType]="pieChartType"
+                  [colors]="chartColors"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="db_box">
+        <h2>Technology wise Practicals</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="techCountData"
+                  [colors]="chartColors"
+                  [labels]="TechWisePractical"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="db_box">
+        <h2>Grade wise Practicals</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="gradeCountData"
+                  [labels]="GradeWise"
+                  [colors]="chartColors"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="db_box">
+        <h2>Practical Machine Utilization</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="MachineCount"
+                  [labels]="PracticalMachineUtilization"
+                  [colors]="chartColors"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--<div class="row">
+    <div class="col-lg-4">
+      <div class="db_box">
+        <h2>Practical Machine Utilization</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="MachineCount"
+                  [labels]="PracticalMachineUtilization"
+                  [colors]="chartColors"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="db_box">
+        <h2>Practical Passout Ratio</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="overallPassoutData"
+                  [labels]="PracticalPassOut"
+                  [chartType]="pieChartType"
+                  [colors]="chartColors"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="db_box">
+        <h2>Technology wise Practicals</h2>
+      </div>
+      <div class="activeDivContent">
+
+        <div style="display: block">
+          <canvas baseChart
+                  [data]="techCountData"
+                  [colors]="chartColors"
+                  [labels]="TechWisePractical"
+                  [chartType]="pieChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+
+    </div>
+
+  </div>-->
+
+
+</div>

@@ -1,0 +1,32 @@
+
+.page-wrapper {
+  position: inherit;
+  margin: 0 0 0 1px;
+  padding: 0 20px;
+  border-left: 1px solid #e7e7e7;
+  margin-top: 30px;
+  height:100% !important;
+}
+.db_box {
+  border: 1px solid #dadada;
+  margin: 0 0 15px 0;
+}
+  .db_box h2 {
+    background: #e6e6e6;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 12px 5px 12px;
+  }
+
+.activeDivContent {
+  border: 1px solid #dadada;
+  margin: -15px 0 15px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 20px;
+  /*padding: 10px;*/
+}

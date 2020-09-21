@@ -1,0 +1,230 @@
+<div id="page-wrapper">
+
+  <div class="maintitle">
+    <h2>Practical Evaluation</h2>
+  </div>
+
+  <form class="example-form" [formGroup]="evaluatePractical" (ngSubmit)="submit()">
+    <div id="page-wrapper">
+
+      <div class="form-horizontal ">
+
+        <div>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header collapsedHeight="35px" expandedHeight="35px">
+              Candidate Information
+            </mat-expansion-panel-header>
+
+            <div class="form-group row">
+              <label class="col-sm-2 control-label">Candidate Name</label>
+              <div class="col-sm-3">
+                <label class="infoLabel">{{evaluationPreDetailInfo.candidateName}}</label>
+                <!--<input type="text" class="form-control" formControlName="candidateName" value="" disabled />-->
+              </div>
+              <label class="col-sm-2 control-label">Practical Name</label>
+              <div class="col-sm-3">
+                <label class="infoLabel">{{evaluationPreDetailInfo.practicalName}}</label>
+                <!--<input type="text" class="form-control" formControlName="practicalName" value="" disabled />-->
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-2 control-label">Technology</label>
+              <div class="col-sm-3">
+                <label class="infoLabel">{{evaluationPreDetailInfo.technology}}</label>
+                <!--<input type="text" class="form-control" formControlName="practicalName" value="" disabled />-->
+              </div>
+              <label class="col-sm-2 control-label">Experience</label>
+              <div class="col-sm-3">
+                <label class="infoLabel">{{evaluationPreDetailInfo.candidateExperience}}</label>
+                <!--<input type="text" class="form-control" formControlName="practicalName" value="" disabled />-->
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+
+          </mat-expansion-panel>
+        </div>
+        <br />
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">Implemented</label>
+          <div class="col-sm-4">
+            <textarea rows="3" class="form-controlTextArea" formControlName="implemented"
+                      [ngClass]="{ 'is-invalid': submitted && validationCheck.implemented.errors }" required>
+            </textarea>
+            <div *ngIf="submitted && validationCheck.implemented.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.implemented.errors.required">Mention the details Candidate has Implemented</div>
+            </div>
+          </div>
+          <label class="col-sm-2 control-label">Not Implemented</label>
+          <div class="col-sm-4">
+            <textarea rows="3" class="form-controlTextArea" formControlName="notImplemented"
+                      [ngClass]="{ 'is-invalid': submitted && validationCheck.implemented.errors }" required>
+            </textarea>
+            <div *ngIf="submitted && validationCheck.notImplemented.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.notImplemented.errors.required">Mention the details Candidate has Not Implemented</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">Findings</label>
+          <div class="col-sm-4">
+            <textarea rows="3" class="form-controlTextArea" formControlName="findings"
+                      [ngClass]="{ 'is-invalid': submitted && validationCheck.findings.errors }" required>
+            </textarea>
+            <div *ngIf="submitted && validationCheck.findings.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.findings.errors.required">Mention the findings</div>
+            </div>
+          </div>
+          <label class="col-sm-2 control-label">Reviewer Comment</label>
+          <div class="col-sm-4">
+            <textarea rows="3" class="form-controlTextArea" formControlName="reviewerComment">
+            </textarea>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">Percentage Completed</label>
+          <div class="col-sm-1">
+            <input type="number" maxlength="2"
+                   (focusout)="gradechange()"
+                   class="form-control" formControlName="percentageComplete"
+                   [ngClass]="{ 'is-invalid': submitted && validationCheck.grade.errors }" required />
+            <div *ngIf="submitted && validationCheck.percentageComplete.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.percentageComplete.errors.required">Required</div>
+            </div>
+          </div>
+
+          <div class="col-sm-1"></div>
+
+          <label class="col-sm-1 control-label">Code Review</label>
+          <div class="col-sm-1">
+            <ng-select class="example-full-width selectStyle"
+                       [ngClass]="{ 'is-invalid': submitted && validationCheck.codeReview.errors }" required
+                       appendTo="body" [searchable]="true"
+                       (focusout)="gradechange()"
+                       [closeOnSelect]="true" formControlName="codeReview">
+              <option [value]="mark" [disabled]="mark.disabled" *ngFor="let mark of markings">
+                {{mark}}
+              </option>
+            </ng-select>
+            <div *ngIf="submitted && validationCheck.codeReview.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.codeReview.errors.required">Required</div>
+            </div>
+          </div>
+
+          <label class="col-sm-2 control-label">Can Do Attitude</label>
+          <div class="col-sm-1">
+            <ng-select class="example-full-width selectStyle"
+                       [ngClass]="{ 'is-invalid': submitted && validationCheck.canDoAttitude.errors }" required
+                       appendTo="body" [searchable]="true"
+                       (focusout)="gradechange()"
+                       [closeOnSelect]="true" formControlName="canDoAttitude">
+              <option [value]="mark" [disabled]="mark.disabled" *ngFor="let mark of markings">
+                {{mark}}
+              </option>
+            </ng-select>
+            <div *ngIf="submitted && validationCheck.canDoAttitude.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.canDoAttitude.errors.required">Required</div>
+            </div>
+          </div>
+
+          <div class="col-sm-1"></div>
+
+          <label class="col-sm-1 control-label">Communication</label>
+          <div class="col-sm-1">
+            <ng-select class="example-full-width selectStyle"
+                       [ngClass]="{ 'is-invalid': submitted && validationCheck.communication.errors }" required
+                       appendTo="body" [searchable]="true"
+                       (focusout)="gradechange()"
+                       [closeOnSelect]="true" formControlName="communication">
+              <option [value]="mark" [disabled]="mark.disabled" *ngFor="let mark of markings">
+                {{mark}}
+              </option>
+            </ng-select>
+            <div *ngIf="submitted && validationCheck.communication.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.communication.errors.required">Required</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">Remark</label>
+          <div class="col-sm-6">
+            <textarea rows="3" class="form-controlTextArea" formControlName="remark"
+                      [ngClass]="{ 'is-invalid': submitted && validationCheck.remark.errors }" required>
+            </textarea>
+            <div *ngIf="submitted && validationCheck.remark.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.remark.errors.required">Remarks is required</div>
+            </div>
+          </div>
+          <div class="col-sm-5"></div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 control-label">Grade</label>
+          <div class="col-sm-1">
+            <ng-select class="example-full-width selectStyle" bindLabel="name"
+                       [ngClass]="{ 'is-invalid': submitted && validationCheck.grade.errors }" required
+                       appendTo="body" [searchable]="true"
+                       [closeOnSelect]="true" formControlName="grade"
+                       [(ngModel)]="gradeselect">
+              <option [value]="grade.name" [disabled]="grade.disabled" *ngFor="let grade of gradeList">
+                {{grade.name}}
+              </option>
+            </ng-select>
+            <div *ngIf="submitted && validationCheck.grade.errors" class="invalid-feedback">
+              <div *ngIf="validationCheck.grade.errors.required">Required</div>
+            </div>
+          </div>
+          <div class="col-sm-3"></div>
+          <label class="col-sm-2 control-label">Can Proceed Further? </label>
+          <div class="col-sm-1">
+            <input type="checkbox" value="1" formControlName="canProceed" />
+          </div>
+          <div class="col-sm-3"></div>
+        </div>
+
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-sm-12" *ngIf="status != 3">
+        <div class="addEditBtn">
+          <button type="button" class="btn  btn-default" id="btnspace" [routerLink]="['/candidate']" mat-raised-button>Cancle</button>
+          <button type="reset" class="btn  btn-default" id="btnspace" mat-raised-button>Reset</button>
+          <button type="submit" class="btn btn-primary theme-btn" mat-raised-button>Submit</button>
+        </div>
+      </div>
+      <div class="col-sm-12" *ngIf="status == 3">
+        <div class="addEditBtn">
+          <button type="button" class="btn  btn-default" id="btnspace" [routerLink]="['/candidate']" mat-raised-button>Cancle</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!--<form [formGroup]="form" (ngSubmit)="submits()">
+  <div>
+    <label>Purchase Price</label>
+    <input type="number" formControlName="purchaseprice"
+           [value]="calculatePurchasePriceTaxes()">
+  </div>
+  <div>
+    <label>TAXES</label>
+    <select formControlName="taxes">
+      <option value="21">21%</option>
+      <option value="10">10%</option>
+      <option value="4">4%</option>
+    </select>
+  </div>
+  <div>
+    <label>Purchase Price + TAX.</label>
+    <input type="number" formControlName="purchasepricetaxes"
+           [value]="calculatePurchasePrice()">
+  </div>
+  <button type="submit">submit</button>
+</form>-->

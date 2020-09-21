@@ -1,0 +1,37 @@
+.tab-close {
+    color: gray;
+    cursor: pointer!important;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+#closeTabStyle {
+  font-size: 15px;
+  padding-top: 4px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+.nav {
+  padding-left: 0px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.spacing {
+  margin-right: 5px;
+  cursor: pointer !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+  color: #555;
+  cursor: default;
+  background-color: #208fc8;
+  color:white;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+/*.tab-close{
+  color: white !important;
+}*/

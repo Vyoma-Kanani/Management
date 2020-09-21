@@ -1,0 +1,141 @@
+<div id="page-wrapper">
+
+  <div class="maintitle">
+    <h2>Candidate Details</h2>
+  </div>
+
+
+  <div id="page-wrapper">
+
+    <div class="form-horizontal ">
+      <div>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header collapsedHeight="35px" expandedHeight="35px">
+            Candidate Information
+          </mat-expansion-panel-header>
+          <br />
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Candidate Name</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.candidateName}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Technology</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.candidateTechnology}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Experience</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.experience}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Email Address</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.email}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+        </mat-expansion-panel>
+      </div>
+      <br />
+      <div>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header collapsedHeight="35px" expandedHeight="35px">
+            Practical Information
+          </mat-expansion-panel-header>
+          <br />
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Practical Name</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.practicalName}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Technology</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.practicalTechnology}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Defination</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.defination}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Category</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.categoryName}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Assigned By</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.userName}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Time Taken</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.timeTaken}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Assigned Time</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.assignedTime}}</label>
+            </div>
+            <div class="col-sm-7"></div>
+          </div>
+
+        </mat-expansion-panel>
+      </div>
+      <br />
+      <div>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header collapsedHeight="35px" expandedHeight="35px">
+            Machine Information
+          </mat-expansion-panel-header>
+          <br />
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Machine Name</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.machineName}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Machine IP</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.machineIP}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 control-label">Floor</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.floorName}}</label>
+            </div>
+            <label class="col-sm-2 control-label">Working Directory</label>
+            <div class="col-sm-3">
+              <label class="infoLabel">{{candidateAllDetails.workingDirectoryPath}}</label>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+
+        </mat-expansion-panel>
+      </div>
+
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="addEditBtn">
+        <button type="button" class="btn  btn-default" id="btnspace" [routerLink]="['/candidate']" mat-raised-button>Cancle</button>
+      </div>
+    </div>
+  </div>
+
+</div>

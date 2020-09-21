@@ -1,0 +1,18 @@
+<div>
+  <mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon>
+
+  <div id="page-wrapper">
+
+    <div class="maintitle">
+      <h3>Confirnation</h3>
+    </div>
+    <div> 
+      <span class="full-width">{{data.message}}</span>
+    </div>
+    <hr />
+    <div class="confirmButtons">
+      <button class="btn btn-default canclebtn" [mat-dialog-close]="false">Cancle</button>
+      <button class="btn btn-primary theme-btn" [mat-dialog-close]="true">Confirm</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+<mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon>
+
+<form class="example-form" [formGroup]="addEditMachine" (ngSubmit)="save()" novalidate>
+  <div id="page-wrapper">
+    <div class="maintitle">
+      <h3>{{title}}</h3>
+    </div>
+    <div class="form-horizontal ">
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" formControlName="machineName"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.machineName.errors}" required />
+          <div *ngIf="submitted && validationCheck.machineName.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.machineName.errors.required">Machine Name is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Machine IP</label>
+        <div class="col-sm-9">
+          <input type="text"
+                 (change)="verifyIP($event);"
+                 ng-minlength="7"
+                 class="form-control" formControlName="machineIP"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.machineIP.errors }" required />
+          <div *ngIf="submitted && validationCheck.machineIP.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.machineIP.errors.required">Machine IP is required</div>
+          </div>
+          <div *ngIf="validationCheck.machineIP.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.machineIP.errors.incorrect">Ip already exist.</div>
+          </div>
+          <div *ngIf="validationCheck.machineIP.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.machineIP.errors.pattern">Ip is invalid.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Working Directory Path</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" formControlName="workingDirectoryPath"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.workingDirectoryPath.errors }" required />
+          <div *ngIf="submitted && validationCheck.workingDirectoryPath.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.workingDirectoryPath.errors.required">Working Directory Path is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Floor</label>
+        <div class="col-sm-9">
+          <ng-select class="example-full-width" bindLabel="name"
+                     [ngClass]="{ 'is-invalid': submitted && validationCheck.floor.errors }" required
+                     placeholder="Select Floor" appendTo="body" [searchable]="true"
+                     [clearable]="true" [closeOnSelect]="true" formControlName="floor"
+                     [(ngModel)]="floorSelected">
+            <ng-option [value]="floor.id" [disabled]="floor.disabled" *ngFor="let floor of floorList">
+              {{floor.name}}
+            </ng-option>
+          </ng-select>
+          <div *ngIf="submitted && validationCheck.floor.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.floor.errors.required">floor is required</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 control-label">Is Machine Active</label>
+        <div class="col-sm-9">
+          <input type="checkbox" class="isActiveCbx" formControlName="isactive" value="1" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br />
+  <hr />
+  <div>
+    <button type="button" class="btn btn-default" id="btnCancel" mat-raised-button (click)="closeDialog()">
+      Cancel
+    </button>
+    <button type="reset" class="btn  btn-default" id="btnspace" mat-raised-button>Reset</button>
+    <button type="submit" class="btn btn-primary theme-btn" mat-raised-button>{{title}}</button>
+  </div>
+
+</form>

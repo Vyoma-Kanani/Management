@@ -1,0 +1,28 @@
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
+D:\Projects\Practical_Management\Source Code\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
+D:\TatvaSoft\TatvaPracticalManagement\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache

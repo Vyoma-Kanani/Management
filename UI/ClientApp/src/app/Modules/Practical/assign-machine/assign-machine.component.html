@@ -1,0 +1,88 @@
+
+<mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon>
+
+<form class="example-form" [formGroup]="assignMachine" (ngSubmit)="save()" novalidate>
+  <div id="page-wrapper">
+    <div class="maintitle">
+      <h3>Practical: {{title}}</h3>
+    </div>
+    <div class="form-horizontal ">
+
+      <div class="MachineDivision" >
+        <div *ngFor="let machine of machineDetails">
+          <div *ngIf="machine.existsPath">
+            <button class="machinebtn" (click)="selectMachine(machine)" >
+              <div>
+                <img src="/assets/images/MachineIcon.jpg" height="70" width="60" />
+              </div>
+              <div>
+                <span>{{machine.machineName}}</span>
+              </div>
+            </button>
+          </div>
+          
+          <div  *ngIf="machine.existsPath == false">
+            <button class="machinebtn" disabled>
+              <div>
+                <img src="/assets/images/MachineIcon.jpg" height="70" width="60" class="disabledImage"/>
+              </div>
+              <div>
+                <span>{{machine.machineName}}</span>
+              </div>
+            </button>
+          </div>
+          
+        </div>
+      </div>
+
+      <!--<div class="form-group row">
+        <label class="col-sm-3 control-label">Machine Name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" formControlName="MachineName"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.MachineName.errors }" required />
+          <div *ngIf="submitted && validationCheck.MachineName.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.MachineName.errors.required">Machine Name is required</div>
+          </div>
+        </div>
+      </div>-->
+
+      <!--<div class="form-group row">
+        <label class="col-sm-3 control-label">Shared Path</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" formControlName="SharedPath"
+                 [ngClass]="{ 'is-invalid': submitted && validationCheck.SharedPath.errors }" required />
+          <div *ngIf="submitted && validationCheck.SharedPath.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.SharedPath.errors.required">Shared Path is required</div>
+          </div>
+        </div>
+      </div>-->
+
+      <!--<div class="form-group row">
+        <label class="col-sm-3 control-label">Floor</label>
+        <div class="col-sm-9">
+          <ng-select class="example-full-width" bindLabel="name"
+                     [ngClass]="{ 'is-invalid': submitted && validationCheck.Floor.errors }" required
+                     placeholder="Select Floor" appendTo="body" [searchable]="true"
+                     [clearable]="true" [closeOnSelect]="true" formControlName="Floor">
+            <ng-option [value]="floor.id" [disabled]="floor.disabled" *ngFor="let floor of floorList">
+              {{floor.name}}
+            </ng-option>
+          </ng-select>
+          <div *ngIf="submitted && validationCheck.Floor.errors" class="invalid-feedback">
+            <div *ngIf="validationCheck.Floor.errors.required">floor is required</div>
+          </div>
+        </div>
+      </div>-->
+
+    </div>
+  </div>
+  <hr />
+  <!--<div>
+    <button type="button" class="btn btn-default" id="btnCancel" mat-raised-button (click)="closeDialog()">
+      Cancel
+    </button>
+    <button type="reset" class="btn  btn-default" id="btnspace" mat-raised-button>Reset</button>
+    <button type="submit" class="btn btn-primary theme-btn" mat-raised-button>Assign</button>
+  </div>-->
+
+</form>

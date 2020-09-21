@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<div class="page-wrapper">
+
+  <div>
+    <mat-toolbar>
+      <div class="navbar navigation navbar-fixed-top headerNavbar row">
+        <div class="col-xs-1">
+          <button class="navbarBtn" (click)="sidenav.toggle()">
+            <mat-icon class="navbaricon">menu</mat-icon>
+          </button>
+
+          <span> <h1>Practical</h1></span>
+          <span>
+            <h1 class="mainLogo">Management</h1>
+          </span>
+        </div>
+        <div class="col-xs-9"></div>
+        <div class="col-xs-2 notificationPart">
+          <button class="btnBell" [matMenuTriggerFor]="tabledriven">
+            <img src="/assets/images/bellIcon.png" class="bellIcon" />
+          </button>
+       
+          <button class="btnProfile" [matMenuTriggerFor]="beforeMenu">
+            <span class="profilePart">
+              <img src="/assets/images/ProfilePic.jpg" class="profilepic" />
+              <span class="profileUserName">{{userDetails.userName}}</span>
+              <b class="caret"></b>
+            </span>
+          </button>
+          <mat-menu #beforeMenu="matMenu" xPosition="before" id="dropdownStyle"> 
+            <button mat-menu-item (click)="logout()">Logout</button>
+          </mat-menu>
+          <!--<span class="logoutStyle">
+            <a id="logstyl" routerLink="/" (click)="logout()">Logout</a>
+          </span>-->
+
+          <mat-menu #tabledriven="matMenu">
+            <ng-container *ngFor="let item of menuItems">
+              <button *ngIf=!item.templateName mat-menu-item (click)="select(item.text)">{{ item.text }}</button>
+            </ng-container>
+          </mat-menu>
+
+        </div>
+      </div>
+    </mat-toolbar>
+    <mat-sidenav-container mode="side">
+
+      <mat-sidenav mode="side" #sidenav class="sidebarStyle" [(opened)]="opened" (opened)="events.push('open!')"
+                   (closed)="events.push('close!')">
+        <mat-nav-list>
+            <a class="sidenavContent" mat-list-item routerLink="/dashboard">Dashboard</a>
+            <a class="sidenavContent" mat-list-item routerLink="/candidate">Manage Practical</a>
+        
+          <a class="sidenavContent" mat-list-item routerLink="/practical">Practical Assignment</a>
+          <a class="sidenavContent" mat-list-item routerLink="/machine">Machine Details</a>
+
+        </mat-nav-list>
+      </mat-sidenav>
+
+      <mat-sidenav-content>
+        <div>
+          <router-outlet></router-outlet>
+        </div>
+      </mat-sidenav-content>
+
+    </mat-sidenav-container>
+
+  </div>
+
+</div>

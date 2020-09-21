@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import "~@ng-select/ng-select/themes/ant.design.theme.css";
+
+.mainClass {
+  min-height: 100% !important;
+  height: 100% !important;
+  font-family: "Segoe UI", arial, tahoma !important;
+}
+
+html, body {
+  min-height: 100% !important;
+  height: 100% !important;
+}
+
+/* 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

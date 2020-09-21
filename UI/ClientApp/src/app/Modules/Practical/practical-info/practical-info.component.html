@@ -1,0 +1,94 @@
+<div id="page-wrapper">
+  <div class="maintitle">
+    <h2>Practical Information</h2>
+    <div class="rt_btn">
+      <span mat-raised-button>
+        <mat-icon (click)="onAddEditPractical(null)" id="addStyle">add</mat-icon>
+      </span>
+    </div>
+  </div>
+  <!--<app-tab-content>
+    <app-tabs [tabTitle]="'Candidate Info'">-->
+ 
+  <br />
+  <div class="example-container">
+    <div class="searchStyle">
+      <input type="text" placeholder="Search" [(ngModel)]="searchText" />
+    </div>
+    <table class="table table-stripped table-bordered dataTable display">
+      <thead id="candidateTable">
+        <tr>
+          <th id="colHeader" [class.active]="order === 'practicalName'"
+              (click)="setOrder('practicalName')"
+              class="mdl-data-table__cell--non-numeric">
+            Name <span [hidden]="reverse"> <b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader">Defination</th>
+          <th id="colHeader">Technology</th>
+          <th id="colHeader" [class.active]="order === 'categoryName'"
+              (click)="setOrder('categoryName')">
+            <!--Category <span [hidden]="reverse">▼</span><span [hidden]="!reverse">▲</span>-->
+            Category <span [hidden]="reverse"> <b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader" [class.active]="order === 'experienceLb'"
+              (click)="setOrder('experienceLb')">
+            Experience_LB <span [hidden]="reverse"> <b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader" [class.active]="order === 'experienceUb'"
+              (click)="setOrder('experienceUb')">
+            Experience_UB <span [hidden]="reverse"> <b class="caret"></b></span><span [hidden]="!reverse"><b class="caretrev"></b></span>
+          </th>
+          <th id="colHeader">Action</th>
+        </tr>
+      </thead>
+
+      <tbody class="info">
+        <tr *ngFor="let prac of practicalList | orderBy: order:reverse | filter:searchText | paginate: { itemsPerPage: perPageitems, currentPage: pageNumber } ">
+          <td>
+            {{prac.practicalName}}
+          </td>
+          <td>
+            {{prac.defination}}
+          </td>
+          <td>
+            {{prac.technology}}
+          </td>
+          <td>
+            {{prac.categoryName}}
+          </td>
+          <td>
+            {{prac.experienceLb}}
+          </td>
+          <td>
+            {{prac.experienceUb}}
+          </td>
+          <td>
+            <span (click)="onAddEditPractical(prac)" class="btn action">
+              <span id='actionStyle' class="fa fa-edit"></span>
+            </span>
+            <button class="btn action" id='onselectStyle'
+                    (click)="ondelete(prac)">
+              <mat-icon id="actionStyle">delete_outline</mat-icon>
+              <!--<span class="fa fa-times" id='actionStyle'></span>-->
+            </button>
+            <!--<span class="btn action" id='onselectStyle' (click)="ondelete(prac)">
+              <span class="fa fa-times" id='actionStyle'></span>
+            </span>-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="row footerPage">
+      <div class="col-lg-8 alignPage">
+        <label class=" col-lg-2 labelStylePage control-label my-label">Page Size : </label>
+        <select [(ngModel)]="perPageitems" class="setPage">
+          <option *ngFor="let item of items" [ngValue]="item">{{item}}</option>
+        </select>
+      </div>
+
+      <pagination-controls class="col-lg-4 pagestyle" (pageChange)="pageNumber = $event"></pagination-controls>
+    </div>
+  </div>
+  <!--</app-tabs>
+  </app-tab-content>-->
+</div>

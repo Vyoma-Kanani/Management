@@ -1,0 +1,394 @@
+.page-wrapper {
+  padding: 0 0px;
+  background-color: #fff;
+  font-family: "Segoe UI", arial, tahoma !important;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+  font-size: 13px;
+}
+
+.headerNavbar {
+  background: #208fc8 !important;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  height: 60px;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbarBtn {
+  background-color: transparent;
+  float: left;
+  border-color: transparent;
+  padding-top: 14px;
+  margin-top: -8px;
+  margin-left: 1px;
+}
+
+.navbarBtn:active {
+  color: #fff !important;
+  background-color: rgb(42, 100, 150);
+  /*border-color: rgb(42, 100, 150);*/
+  border-radius: 0px;
+}
+
+.navbaricon {
+  font-size: 35px;
+  padding-right: 36px;
+  margin-top: -5px;
+}
+.btnBell {
+  float:left;
+  background-color: transparent;
+  border-color: transparent;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 11px;
+  margin-top: -13px;
+  margin-left: -10px;
+}
+.bellIcon {
+  margin-top: -13px;
+}
+
+.sidebarStyle {
+  width: auto;
+  max-width: 200px;
+  border-color: #e7e7e7;
+  background: #eee;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.15);
+}
+.mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
+  display: block;
+  height: 35px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.sidenavContent {
+  font-family: "Segoe UI", arial, tahoma !important;
+  font-size: 14px;
+  text-decoration: none
+}
+.sidenavContent:hover {
+  background-color: #f8f8f8;
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .row {
+    margin-left: -45px;
+  }
+
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -45px;
+  }
+
+  .navbaricon {
+    font-size: 30px !important;
+    padding-right: 28px !important;
+    margin-top: 0px !important;
+    margin-left: 14px;
+  }
+  .mat-toolbar h1 {
+    font-size: 23px !important;
+    height: 40px;
+    font-family: "Segoe UI", arial, tahoma !important;
+    margin-top:-7px;
+  }
+  .mainLogo {
+    margin-top: -22px !important;
+    margin-left: 13px!important;
+  }
+  .notificationPart {
+    margin-left: -200px;
+  }
+
+  .btnProfile {
+    background-color: transparent;
+    border-color: transparent;
+    height: 59px;
+    width: 85px !important;
+    padding-top: 15px;
+    margin-top: -11px;
+    margin-left: -156px;
+  }
+
+  .profilepic {
+    height: 35px;
+    width: 35px;
+    margin-left: -10px;
+    margin-top: -16px;
+    border-radius: 50%;
+  }
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 11px !important;
+    margin-top: -13px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+}
+@media (min-width: 600px) and (max-width:812px) {
+  .row {
+    margin-left: -30px;
+  }
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -67px;
+  }
+
+  .navbaricon {
+    font-size: 30px !important;
+    padding-right: 28px !important;
+    margin-top: 0px !important;
+    margin-left: 26px;
+  }
+
+  .mat-toolbar h1 {
+    font-size: 23px !important;
+    height: 40px;
+    font-family: "Segoe UI", arial, tahoma !important;
+    margin-top: -7px;
+  }
+
+  .mainLogo {
+    margin-top: -22px !important;
+    margin-left: 2px !important;
+  }
+  .notificationPart {
+    margin-left: -181px;
+  }
+
+  .btnProfile {
+    background-color: transparent;
+    border-color: transparent;
+    height: 59px;
+    width: 85px !important;
+    padding-top: 15px;
+    margin-top: -11px;
+    margin-left: -156px;
+  }
+
+  .profilepic {
+    height: 35px;
+    width: 35px;
+    margin-left: -10px;
+    margin-top: -16px;
+    border-radius: 50%;
+  }
+
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 11px !important;
+    margin-top: -13px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+}
+
+@media (min-width: 813px) and (max-width:1024px) {
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -54px;
+  }
+
+  .mainLogo{
+    margin-top: -40px;
+    margin-left: 124px !important;
+  }
+ 
+  .notificationPart {
+    margin-left: -181px;
+  }
+
+  .btnProfile {
+    background-color: transparent;
+    border-color: transparent;
+    height: 59px;
+    width: 149px !important;
+    padding-top: 15px;
+    margin-top: -11px;
+    margin-left: -156px;
+  }
+
+  .profilepic {
+    height: 35px;
+    width: 35px;
+    margin-left: -27px !important;
+    margin-top: -16px;
+    border-radius: 50%;
+  }
+
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 49px !important;
+    margin-top: -13px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width:1445px) {
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -64px;
+  }
+
+  .mat-toolbar h1 {
+    font-size: 30px !important;
+    height: 40px;
+    font-family: "Segoe UI", arial, tahoma !important;
+    margin-left: -9px;
+  }
+
+  .mainLogo {
+    margin-top: -40px;
+    margin-left: 133px !important;
+  }
+
+  .notificationPart {
+    margin-left: -243px !important;
+  }
+}
+
+.mat-toolbar h1 {
+  font-size: 30px;
+  height: 40px;
+  font-family: "Segoe UI", arial, tahoma !important;
+}
+
+.mainLogo {
+  margin-top: -40px;
+  margin-left: 175px;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  /*margin-left: 100px;*/
+  margin-top: -13px;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.profilePart{
+  float:left;
+}
+.notificationPart {
+  float: right;
+}
+
+.btnProfile {
+  background-color: transparent;
+  border-color: transparent;
+  width: 179px;
+  height: 59px;
+  padding-top: 15px;
+  margin-top: -11px;
+  margin-left: 0px;
+}
+.profilepic {
+  height: 35px;
+  width: 35px;
+  /*margin-left: -10px;*/
+  margin-top: -16px;
+  border-radius: 50%;
+}
+
+.mat-drawer-container {
+  position: relative;
+  z-index: 1;
+  height:100% !important;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  overflow: hidden;
+}
+@media (min-width: 1025px) and (max-width: 1089px) {
+
+  .notificationPart {
+    margin-left: -276px !important;
+  }
+}
+@media (min-width: 1088px) and (max-width: 1356px) {
+
+  .notificationPart {
+    margin-left: -140px !important;
+  }
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -52px;
+  }
+}
+@media (min-width: 1357px) and (max-width: 1445px) {
+
+  .notificationPart {
+    margin-left: -57px !important;
+  }
+
+  .navbarBtn {
+    background-color: transparent;
+    float: left;
+    border-color: transparent;
+    padding-top: 11px;
+    margin-top: -8px;
+    margin-left: -30px;
+  }
+  .mainLogo {
+    margin-top: -40px;
+    margin-left: 145px !important;
+  }
+}
+
+.profileUserName{
+font-size:13px;
+}

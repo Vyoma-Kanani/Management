@@ -1,0 +1,15 @@
+ <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>--> 
+
+<ul class="nav nav-tabs nav-tabs-page" role="tablist">
+    <li *ngFor="let tab of tabs" (click)="selectTab(tab)" [class.active]="tab.active" class="spacing">
+      <a>{{tab.title}}</a>
+    </li>
+    <!-- dynamic tabs -->
+    <li *ngFor="let tab of dynamicTabs" (click)="selectTab(tab)" [class.active]="tab.active" class="spacing">
+      <a>{{tab.title}} <span class="tab-close" *ngIf="tab.isCloseable" (click)="closeTab(tab)"><mat-icon id='closeTabStyle'>clear</mat-icon></span></a>
+    </li>
+</ul>
+  <ng-content></ng-content>
+  <ng-template appDynamicTab #container></ng-template>

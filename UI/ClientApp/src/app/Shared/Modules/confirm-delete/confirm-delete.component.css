@@ -1,0 +1,76 @@
+
+#page-wrapper {
+  position: inherit;
+  margin: -10px 0 0 1px;
+  padding: 0 0px;
+}
+
+.mat-icon {
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 17px;
+  width: 17px;
+}
+
+.confirmButtons {
+  float: right;
+}
+
+.btn-default {
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
+  color: #494949 !important;
+}
+
+  .btn-default:hover {
+    color: #494949 !important;
+    background-color: #cfcfcf;
+    border-color: #cfcfcf;
+  }
+
+.theme-btn {
+  background: #208fc8;
+  border: 1px solid #208fc8;
+}
+.theme-btn:hover {
+  background-color: #1080b9 !important;
+  border: 1px solid #1080b9;
+}
+
+.canclebtn {
+  margin-left: 4px!important;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-left:10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#close-icon {
+  float: right;
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+  #close-icon:hover {
+    cursor: pointer;
+  }
